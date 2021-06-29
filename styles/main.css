@@ -1,4 +1,9 @@
 
+@media screen 
+and (device-width: 480px) 
+and (device-height: 800px) {
+
+}
 
 body {
 background-image:url(https://romimautone.github.io/images/back2.jpg);
