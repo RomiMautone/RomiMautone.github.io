@@ -2,7 +2,7 @@
 @media screen 
 and (device-width: 480px) 
 and (device-height: 800px) {
-
+background-size: 480px 800px ;
 }
 
 body {
