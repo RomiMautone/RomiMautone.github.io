@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <title>EDA Learning</title>
+
+    </head>
+
+ 
+
+  <header>
+    <div>
+      <div class="main-logo">
+        <img src="../RomiMautone.github.io/images/yoga-clipart-with-transparent-background-2.png" id="logo">
+    </div>
+    <div class="title-introduction">
+      <h1>DevAcademy's journal</h1> 
+      <h2>Personal adventures into turning a web developer</h2>
+    </div>
+    <div class="navbar">
+      <nav><ul>
+       <li><a href="./index.html" >Home</a></li>
+        <li><a href="./About me/">About me</a></li>
+       <li><a href="./Posts.html">Posts</a></li>
+      <li><a href="./Contact me/" >Contact me</a></li>
+     </ul></nav>
+   </div>
+   </div>
+</header>
+
+ <body>
+    
+   <div class="box-content">
+    <p class="small-letter">Tech Challenge - Tuesday 29th June 2021</p>
+      <h3> What is the difference between Margin, Border, and Padding?</h3>
+      <p> This is the article that is going to answer all of your questions about this topic.</p>
+      <p>First of all, let’s have a brief introduction into each concept.
+      </p>  
+      <ul>
+        <li> <span id="bold-letter">Padding</span> - as defined by <a href="https://www.w3schools.com/Css/css_padding.asp" id="w3school">W3School</a>,it is the space between the element border and the element component (think of element as a text, image)
+            It is basically the space around your element. </li>
+        <br>
+      
+        <li><span id="bold-letter">Border</span> - it is exactly what you just might think. The element’s box that separates the element’s content from the outer space.</li>
+        <br>
+        <li><span id="bold-letter">Margin</span> - is the space around elements, outside of any defined borders.</li>
+        </ul>
+          <p>Here is a visual image for you: </p>
+    <div >
+      <img src="./images/boxmodel.png.crdownload" id="w3shool-image">
+      </div>
+         <p>
+            <span id="bold-letter">This is an analogy to help you out:</span> 
+      <br>
+      <br>
+      Let’s say that you have a framed picture hanging at your lounge. 
+      <br>
+      The picture itself will be your element’s content, and the frame which contains it will be its border. 
+      <br>Then the margin will be in this case all of the remaining space around that wall.
+      </p> 
+     
+      <img src="https://www.printforfun.sg/img/sqframe-3.jpg" id="paddingexample">
+      <p>
+        <span id="bold-letter">Please note:</span> all three properties can be used at the same time for a single element, since they all represent different attributes of the element.
+
+        <br>
+        <br>Now, let’s take a look at an example image:
+        
+      </p>
+      <img src="images/W3shool-example-padding box.png" class="centered-img">
+     
+      <p>
+        This is what your code for html should look like:
+      </p>
+      
+      <img src="images/html-box-example.png" class="centered-img">
+      <p>
+        And finally, this is how CSS itself should look like:
+      </p>
+      <img src="images/CSS-box-example.png" class="centered-img">
+      
+      <p><span id="bold-letter">Please note</span>: for the value to apply, it also needs to have a “border-style” on CSS, like the example above.</p>
+       <h3> How to specify a value?</h3>
+        <p>
+            <ul>
+        <li>Border, Margin and Padding can have a single value that applies to all four sides.</li>
+        <br>
+        <li>It can also have different values for each side of the box.
+        These values are indicated from the top side in a clockwise way. 
+        <br>TOP, RIGHT, BOTTOM, LEFT.</li>
+        <br>
+        <li>It can even have two values that apply the same distance for top and bottom, and same distance for right and left. </li>
+        <br>
+        <li>Or it can have three values, for top, right and left, and bottom</li>
+    </ul>
+        </p>
+       <p>Here is an example:</p> 
+       <img src="images/values-example-post1.png" class="centered-img">
+        <p>
+            
+            <br>
+            <p><span id="bold-letter">Conclusion:</span>
+        <br>
+        <br>
+        <span id="bold-letter">Padding</span> is the distance between the element’s content and the border.
+        <br>
+        <span id="bold-letter">Border</span> is the frame that contains the element’s content.
+        <br>
+        And <span id="bold-letter">margin</span> is the space outside the element’s border.
+        <br>
+        </p>
+        <p>I hope this helps,
+
+        </p>
+      
+    
+
+       <h2 id="Signature">Romina</h2>
+        
+  </p>
+  </div>
+</body>
+
+ <footer class="grid-container">
+  <div class="footer-left">
+    <ul >
+  <a class="personal-link" href="./About me/">About me </a>
+  <br>
+  <a class="personal-link" href="./Posts.html"> Posts</a>
+  <br>
+  <a class="personal-link" href="./Contact me/">Contact me </a>
+  </ul>
+ 
+
+<div class="footer-right">
+  <form class="newsletter">
+<label for="newsletter">Subsribe to my Newsletter</label>
+<br>
+<input type="text" placeholder="mailto@example.com">
+<br>
+<input type="submit">
+  </form>
+
+  <div>
+  <a href="https://www.facebook.com/"><img src="./images/f_logo-black-1x.webp" id="social-logo"/></a>
+  <a href="https://www.instagram.com/"><img src="./images/insta-logo-1x.webp" id="social-logo"></a>
+
+
+
+
+</div>
+</div>
+ </footer>
+  </body>
+</html>
