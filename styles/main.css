@@ -6,6 +6,14 @@ body {
     width:50%;
     overflow-x: hidden;
 } 
+nav {
+
+    margin-left: 400px;
+
+}
+.title-introduction{
+    margin-left: 0px;
+}
 }
 
 body {
