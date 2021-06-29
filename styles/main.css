@@ -8,11 +8,11 @@ body {
 } 
 nav {
 
-    margin-left: 400px;
+    margin-left: 100px;
 
 }
 .title-introduction{
-    margin-left: 0px;
+    margin-left: -100px;
 }
 }
 
