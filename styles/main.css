@@ -1,20 +1,5 @@
 
-@media screen 
-and (device-width: 480px) 
-and (device-height: 800px) {
-body {
-    width:50%;
-    overflow-x: hidden;
-} 
-nav {
 
-    margin-left: 100px;
-
-}
-.title-introduction{
-    margin-left: -100px;
-}
-}
 
 body {
 background-image:url(https://romimautone.github.io/images/back2.jpg);
@@ -220,4 +205,108 @@ margin-left:400px;
 .small-letter{
 
     font-size: small;
+}
+
+@media only screen and (max-width:700px) 
+ {
+
+nav {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-left: -30px; 
+    bottom: 350px;
+    display:flex;
+    padding: 0px ;
+    font-size:14px;
+}
+div .title-introduction{
+
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-left: 50px; 
+    display:flex;
+    padding: 0px ;
+    font-size: 20px;
+}
+h1{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-left: 50px; 
+    display:flex;
+    padding: 0px ;
+    font-size: 25px;
+
+}
+.title-introduction h2 {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-left: 50px;
+    top:50px; 
+    display:flex;
+    padding: 0px ;
+    font-size: 13px;
+}
+#logo{
+
+    width:22%;
+    padding: 0px;
+    margin-left: -30px;
+}
+.footer-left ul{
+    
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    margin-left: 0px; 
+    display:flexbox;
+    padding: 2px ;
+   
+}
+.footer-left ul a{
+    font-size:18px;
+}
+form{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    margin-left:-650px; 
+    display:flexbox;
+    padding: 0px ; 
+      
+}
+label {
+    font-size: 12px;
+}
+.footer-right div {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    margin-left:-650px; 
+    display:flexbox;
+    padding: 0px ; 
+    
+
+}
+#social-logo {
+  width: 30px;
+  height: auto; 
+  margin-top: 100px; 
+}
+header {
+margin-right: 0px;
+
+}
+.box-content {
+
+    margin: 0px 0px 0px 10px;
+}
+#Mandela {
+    margin-left:30px;
+    width: 300px;
+    height: 150px;
+}
 }
